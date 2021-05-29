@@ -5,6 +5,8 @@
     "@nomiclabs/hardhat-web3": "^2.0.0",
     "hardhat": "^2.3.0",
     "hardhat-contract-sizer": "^2.0.3",
-    "hardhat-gas-reporter": "^1.0.4"
+    "hardhat-gas-reporter": "^1.0.4",
+    "keccak256": "^1.0.2",
+    "merkletreejs": "^0.2.18"
   }
 }
