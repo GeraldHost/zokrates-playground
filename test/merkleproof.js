@@ -3,7 +3,7 @@ const keccak256 = require("keccak256");
 
 const MP = artifacts.require("MerkleProof");
 
-const leaves = Array(100)
+const leaves = Array(1e6)
   .fill(0)
   .map((_, i) => keccak256(i));
 const tree = new MerkleTree(leaves, keccak256);
